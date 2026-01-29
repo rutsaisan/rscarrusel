@@ -31,7 +31,7 @@
         // Le quito un elemento al contador
         console.log(contador)
         contador--;
-        if(contador < -8){contador = 0;}
+        if(contador < -7){contador = 0;}
         // Actualizo la posicion del nuevo contenedor
       	nuevo_contenedor.style.left = contador*anchura+"px"
       }
